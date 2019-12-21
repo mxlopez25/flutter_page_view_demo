@@ -51,11 +51,11 @@ class AppState extends State<App> {
       BottomNavigationBarItem(
           icon: new Icon(Icons.home, color: Colors.black,), title: new Text('Red', style: TextStyle(color: Colors.black),)),
       BottomNavigationBarItem(
-          icon: new Icon(Icons.search), title: new Text('Blue')),
+          icon: new Icon(Icons.search, color: Colors.black,), title: new Text('Blue', style: TextStyle(color: Colors.black),)),
       BottomNavigationBarItem(
-          icon: Icon(Icons.info_outline), title: Text('Yellow')),
+          icon: Icon(Icons.info_outline, color: Colors.black,), title: Text('Yellow', style: TextStyle(color: Colors.black),)),
       BottomNavigationBarItem(
-          icon: Icon(Icons.info_outline), title: Text('Green'))
+          icon: Icon(Icons.info_outline, color: Colors.black,), title: Text('Green', style: TextStyle(color: Colors.black),))
     ];
   }
 
